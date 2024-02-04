@@ -59,7 +59,7 @@ int phy_status = 1;
 #define PIXELCLK_1080P30HZ 74250000 /* FHD 30Hz */
 
 /* DP debug module sysfs */
-int displayport_log_level = 6;
+int displayport_log_level = 0;
 module_param(displayport_log_level, int, 0644);
 int displayport_sst1_bist_test = 0;
 module_param(displayport_sst1_bist_test, int, 0644);

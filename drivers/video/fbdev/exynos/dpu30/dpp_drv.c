@@ -32,7 +32,7 @@
 #endif
 
 
-int dpp_log_level = 6;
+int dpp_log_level = 0;
 module_param(dpp_log_level, int, 0644);
 
 struct dpp_device *dpp_drvdata[MAX_DPP_CNT];

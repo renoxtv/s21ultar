@@ -170,7 +170,7 @@ static char *panel_regulator_names[PANEL_REGULATOR_MAX] = {
 };
 
 static int boot_panel_id;
-int panel_log_level = 6;
+int panel_log_level = 0;
 EXPORT_SYMBOL(panel_log_level);
 int panel_cmd_log;
 EXPORT_SYMBOL(panel_cmd_log);

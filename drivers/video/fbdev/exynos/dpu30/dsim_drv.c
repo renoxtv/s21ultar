@@ -76,7 +76,7 @@
 #define FCMD_DATA_MAX_SIZE	0x00100000
 #endif
 
-int dsim_log_level = 6;
+int dsim_log_level = 0;
 module_param(dsim_log_level, int, 0644);
 
 struct dsim_device *dsim_drvdata[MAX_DSIM_CNT];
